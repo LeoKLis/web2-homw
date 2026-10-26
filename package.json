@@ -1,0 +1,23 @@
+{
+  "name": "labos",
+  "version": "1.0.0",
+  "description": "Web2 labos",
+  "keywords": [
+    "web2"
+  ],
+  "homepage": "https://github.com/LeoKLis/web2-homw#readme",
+  "bugs": {
+    "url": "https://github.com/LeoKLis/web2-homw/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoKLis/web2-homw.git"
+  },
+  "license": "ISC",
+  "author": "LeoKLis",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
