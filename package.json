@@ -19,7 +19,7 @@
   "scripts": {
     "build": "npm run clean && tsc && npm run copy-views",
     "clean": "rm -rf dist",
-    "copy-views": "cp -r src/views/ dist",
+    "copy-views": "if [ -d src/views ]; then cp -r src/views dist; fi",
     "dev": "node --watch src/main.ts",
     "start": "node dist/main.js"
   },
