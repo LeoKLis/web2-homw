@@ -2,10 +2,12 @@
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
+    "noEmit": true,
     "noEmitOnError": true,
     "module": "nodenext",
-    "target": "ES2022",
+    "target": "esnext",
     "rewriteRelativeImportExtensions": true,
-    "strict": true
+    "strict": true,
+    "skipLibCheck": true
   }
 }
